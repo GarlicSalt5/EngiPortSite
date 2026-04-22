@@ -1,12 +1,13 @@
 // --- DATA ---
 // Data structures defining skills and projects.
 const skills = [
-    { name: "C / C++", level: "10%" },
+    { name: "Matlab / Simulink", level: "10%" },
     { name: "Python", level: "85%" },
-    { name: "Matlab / Simulink", level: "80%" },
-    { name: "Microcontrollers", level: "70%" },
-    { name: "skill", level: "100%" },
-    { name: "skill", level: "0%" }
+    { name: "C", level: "80%" },
+    { name: "C++", level: "70%" },
+    { name: "Microcontrollers", level: "100%" },
+    { name: "PCB Design", level: "0%" }
+    
 ];
 
 const projects = [
