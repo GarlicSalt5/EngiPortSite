@@ -2,11 +2,16 @@
 // Data structures defining skills and projects.
 const skills = [
     { name: "Matlab / Simulink", level: "10%" },
-    { name: "Python", level: "85%" },
+    { name: "Embedded systems with Microcontrollers", level: "85%" },
+    { name: "SolidWorks", level: "100%" },
+    { name: "LTspice", level: "0%" },
+    { name: "AutoCAD", level: "0%" },
+    { name: "PCB Design", level: "0%" },
+    { name: "Circuit Design", level: "100%" },
+    { name: "Circuit Analysis", level: "100%" },
     { name: "C", level: "80%" },
     { name: "C++", level: "70%" },
-    { name: "Microcontrollers", level: "100%" },
-    { name: "PCB Design", level: "0%" }
+    { name: "Python", level: "100%" },
     
 ];
 
