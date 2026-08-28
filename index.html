@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="style.css">
     
     <!-- Link to Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLMDJ8uE23/X9XWpXTyW2I0tQGxvN/X6qHj5p6a2Z80u0gW/5+M5p5I5t9P6Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLMDJ8uE23/X9XWpXTyW2I0tQGxvN/X6qHj5p6a2Z80u0gW/5+M5p5I5t9P6Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
@@ -25,9 +25,9 @@
     <nav>
         <div class="logo">Ivan's<span> PORTFOLIO</span></div>
         <ul class="nav-links">
-            <li><a href="#about">01. About</a></li>
-            <li><a href="#skills">02. Skills</a></li>
-            <li><a href="#projects">03. Projects</a></li>
+            <li><a href="#skills">01. Skills</a></li>
+            <li><a href="#projects">02. Projects</a></li>
+            <li><a href="#about">03. About</a></li>
             <li><a href="#contact">04. Contact & Resume</a></li>
         </ul>
     </nav>
@@ -36,7 +36,7 @@
     <main>
         <!-- HERO -->
         <section id="hero">
-            <div class="hero-pre">Hi, i'm</div>
+            <div class="hero-pre">Hi, I'm</div>
             <h1 class="hero-title">Ivan Preston.</h1>
             <div class="hero-subtitle">
                 I like to build things and feel like Iron Man.
@@ -45,31 +45,53 @@
             <a href="#projects" class="btn">View Projects</a>
         </section>
 
-        <!-- ABOUT -->
-        <section id="about">
+        <!-- SKILLS (Moved up) -->
+        <section id="skills">
             <div class="section-header">
                 <span>01.</span>
+                <h2>Skills</h2>
+                <div class="line"></div>
+            </div>
+            <div class="skills-container" id="skills-container">
+                <!-- Injected via JS -->
+            </div>
+        </section>
+
+        <!-- PROJECTS (Moved up) -->
+        <section id="projects">
+            <div class="section-header">
+                <span>02.</span>
+                <h2>Projects</h2>
+                <div class="line"></div>
+            </div>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Injected via JS -->
+            </div>
+        </section>
+
+        <!-- ABOUT (Moved down) -->
+        <section id="about">
+            <div class="section-header">
+                <span>03.</span>
                 <h2>About Me</h2>
                 <div class="line"></div>
             </div>
             
-            <!-- START: New About Content Container (Text + Image) -->
             <div class="about-content-container" style="display: flex; gap: 40px; align-items: flex-start; flex-wrap: wrap;">
                 
                 <!-- About Text Column -->
                 <div style="flex: 3; min-width: 300px; max-width: 700px;">
                     <p style="margin-bottom: 20px;">
-                        Hi! I'm a Sophomore in Electrical Engineering student at the University of Missouri - Columbia.
+                        Hi! I'm a Junior Electrical Engineering student at the University of Missouri - Columbia.
                         I enjoy exploring the different paths of electrical Engineering throughout my academic career. In my spare time I like to perform magic tricks, play video games, and practice guitar.
                     </p>
                     <p>
-                        Currently I am working on enahncing my skills and knowledge by working with microcontrollers and building a home automation sytem.
+                        Currently I am working on enhancing my skills and knowledge by working with microcontrollers and building a home automation system.
                     </p>
                 </div>
 
-                
+                <!-- Profile Photo -->
                 <div class="profile-photo-container" style="flex: 1; min-width: 200px; max-width: 250px;">
-                    
                     <img 
                         src="https://i.imgur.com/IkppKgB.jpeg" 
                         alt="Ivan Preston Profile Photo" 
@@ -78,35 +100,9 @@
                 </div>
                 
             </div>
-            
-            
         </section>
 
-        
-        <section id="skills">
-            <div class="section-header">
-                <span>02.</span>
-                <h2>Skills</h2>
-                <div class="line"></div>
-            </div>
-            <div class="skills-container" id="skills-container">
-                
-            </div>
-        </section>
-
-        
-        <section id="projects">
-            <div class="section-header">
-                <span>03.</span>
-                <h2>Projects</h2>
-                <div class="line"></div>
-            </div>
-            <div class="projects-grid" id="projects-grid">
-                
-            </div>
-        </section>
-
-        
+        <!-- CONTACT -->
         <section id="contact" style="text-align: center; margin-top: 50px;">
             <div class="section-header" style="justify-content: center;">
                 <span>04.</span>
@@ -117,24 +113,19 @@
                 Whether you have a question or just want to discuss more, my inbox is always open.
             </p>
             
-            
             <div class="contact-buttons-container" style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
-                
                 
                 <a href="mailto:ivanprestonengineering@gmail.com" class="btn">
                     <i class="fas fa-envelope"></i> Email Me
                 </a>
-
                 
                 <a href="ivanresume.pdf" class="btn secondary-btn" target="_blank" rel="noopener noreferrer">
                     <i class="fas fa-file-pdf"></i> Resume
                 </a>
 
-               
                 <a href="#instagram-url" class="btn social-btn" target="_blank" rel="noopener noreferrer" title="View Instagram">
                     <i class="fab fa-instagram"></i>
                 </a>
-
                 
                 <a href="https://youtube.com/@ivanpmagic?si=_NXRohcaZyp0VNz9" class="btn social-btn" target="_blank" rel="noopener noreferrer" title="View YouTube Channel">
                     <i class="fab fa-youtube"></i>
@@ -162,5 +153,4 @@
     <!-- Link to the external JavaScript file -->
     <script src="script.js"></script>
 </body>
-
 </html>
