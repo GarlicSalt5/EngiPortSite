@@ -1,4 +1,4 @@
-    <script>
+
         // --- DATA ---
         const skills = [
             { name: "Matlab / Simulink" },
@@ -131,6 +131,4 @@
             section.style.transition = 'all 0.6s ease-out';
             observer.observe(section);
         });
-    </script>
-</body>
-</html>
+
