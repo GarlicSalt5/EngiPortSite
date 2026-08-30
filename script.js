@@ -1,9 +1,10 @@
 
         // --- DATA ---
         const skills = [
-            { name: "Matlab / Simulink" },
+            { name: "Matlab" },
             { name: "C" },
-            { name: "Python" }
+            { name: "Python" },
+            { name: "Arduino microcontroller" }
         ];
 
         const projects = [
