@@ -14,7 +14,7 @@
                 short: "A short overview of the project goes here.",
                 desc: "Detailed description of the project goes here. Replace this with real project details before sharing with recruiters.",
                 tech: ["Tech 1", "Tech 2", "Tech 3"]
-            }
+            },
             {
                 id: 2,
                 title: "Smart Mirror",
